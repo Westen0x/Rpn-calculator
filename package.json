@@ -1,0 +1,11 @@
+{
+  "name": "RPN_calculator",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test/server.spec.js --reporter spec"
+  }
+}
